@@ -1,17 +1,17 @@
 {
-    "name": "sc0vu/web3.php",
-    "description": "Ethereum web3 interface.",
+    "name": "etica/web3.php",
+    "description": "Ethereum web3 interface. Fork from sc0vu/web3.php because had to update dependencies",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "sc0Vu",
-            "email": "alk03073135@gmail.com"
+            "name": "eticaweb3",
+            "email": "eticaweb3@protonmail.com"
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^6.3|^7.0",
-        "PHP": "^7.1",
+        "guzzlehttp/guzzle": "^6.3|>=7.0",
+        "PHP": "^7.1|>=8.0",
         "kornrunner/keccak": "~1.0",
         "phpseclib/phpseclib": "~2.0.11",
         "ext-mbstring": "*"
